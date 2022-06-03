@@ -1,0 +1,276 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*  navbar menu start */
+
+
+
+.logoimg{
+    width: 180px;
+    height: 50px !important;
+}
+.search{
+    width: 520px;
+    
+}
+.nav-link{
+    color: black !important;
+}
+.btnlight{
+    border:solid black 1px !important;
+
+}
+.btnlight:hover{
+    background-color: gainsboro !important;
+}
+.btn-dark{
+    border:thin black !important;
+
+}
+.fa-cart-shopping{
+    width: 25px;
+    height: 25px;
+}
+
+
+/* ======first section start------- */
+.firstsec{
+    width: 100%;
+    height: 65vh;
+    background:url(./images/topgirl.jpg);
+    background-repeat: no-repeat;
+
+}
+.firstcontant{
+    /* height: 30vh;
+    width: 490px; */
+    padding: 50px;
+    background: white;
+    margin-top: 70px;
+    animation-name: firstHeading;
+    
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    /* animation: firstHeading 2s infinite alternate; */
+}
+
+@keyframes firstHeading{
+    0%{ border-radius: 0%;}
+    100%{ border-radius: 50%;
+    background-color: beige;}
+}
+.Learh1{
+   font-family: 'Playfair Display', serif;
+   
+}
+.secnav{
+    color: rgb(202, 202, 202);
+    font-weight: 600;
+}
+
+
+
+/* ======third section start------- */
+.thirdcon{
+    border: solid 1px grey;
+}
+.firstcarp{
+    font-size: 13px;
+    
+}
+.firstcarp2 {
+    color: chocolate;
+    font-size: 15px;
+    padding-top: 0;
+}
+.ratingstar{
+    color: rgb(211, 163, 31);
+}
+.ratingNo{
+    color: rgb(143, 140, 140);
+    font-size: 12px;
+}
+.price{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+.price2{
+    color: rgb(143, 140, 140);
+    font-size: 15px;
+    font-weight: 400;
+}
+.btnwarning{
+    background-color: rgb(253, 210, 101) !important;
+    width: 100px;
+    height: 30px;
+    font-size: 12px !important;
+    text-align: center;
+    padding-top: 1px !important;
+    font-weight: 700 !important;
+    color: rgb(138, 118, 67);
+}
+.firstcarsol{
+    border: none !important;
+  
+    
+}
+
+
+
+
+/* ======forth section start------- */
+.forthsec{
+    margin-top: 80px;
+}
+
+
+/* =========fifth section start------- */
+.topcatimg{
+  width: 100%;
+}
+
+/* =======sixth section start------- */
+#sixsec{
+    width: 100%;
+    height: auto;
+    background:rgb(248, 248, 248)  ;
+    margin-top: 60px;
+}
+.feaHeading{
+    font-size: 18px;
+    font-weight: 700;
+}
+.feaLink{
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(63, 63, 211);
+}
+.FeaPara{
+    font-size: 14px;
+    color: rgb(143, 140, 140);
+}
+
+
+
+
+/* =======sventh section start----*/
+.sevendiv1{
+    margin-top: 80px;
+    margin-left: 70px;
+}
+.sevendiv2{
+    width: 76%;
+    margin-top: 200px;
+    margin-left: 0;
+}
+.sevendiv2 p{
+    font-size: 20px;
+}
+
+/* ========eight section start------ */
+#eightsec{
+    width: 100%;
+    height: auto;
+    margin-top: 50px !important;
+    background:rgb(248, 248, 248)  ;
+}
+.eightimag{
+   width: 70%;
+   margin-left: 230px;
+}
+.nasimg{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+}
+.wordimg{
+    width: 70px;
+    height: 70px;
+}
+.boximg{
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+}
+.netappimg{
+    width: 130px;
+    height: 50px;
+    margin-top: 10px;
+}
+.evenbriteimg{
+    width: 160px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+
+
+
+/* ========nineth section start------ */
+.senlogo{
+    width: 80%;
+    height: 100%;
+    padding: 0;
+}
+.ninendiv1{
+    width: 100%;
+    margin-top: 80px;
+   
+}
+.ninendiv1 img{
+    width: 80%;
+    height: 100%;
+}
+.ninendiv2{
+    width: 77%;
+    margin-top: 200px;
+    margin-left: 0;
+}
+.ninendiv2 p{
+    font-size: 20px;
+}
+
+
+
+/* ========footer section start------ */
+.footersec{
+    width: 100%;
+    background: rgb(0, 0, 0);
+}
+.footp p{
+    color: white;
+    font-size: 15px;
+}
+
+.footlogo{
+    width: 100px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 0;
+}
+.btnenglish{
+    border:solid white 1px !important;
+    color: white !important;
+    width: 150px;
+   
+}
+.foticon{
+    color: white;
+}
+.footbtn{
+    text-align: end;
+}
+.copyright{
+    padding-top: 220px;
+    font-size: 11px;
+    color: white;
+    text-align: end;
+}
